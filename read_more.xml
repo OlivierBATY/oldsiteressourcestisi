@@ -1,0 +1,11 @@
+<div id="ThisTextWillBeHidden">This text needs to be hidden</div>
+
+<button type="button" 
+onclick="document.getElementById("ThisTextWillBeHidden").style.display='none';">
+    Click me to hide!
+</button>
+
+<button type="button" 
+onclick="document.getElementById("ThisTextWillBeHidden").style.display='block';">
+    Click me to show!
+</button>
